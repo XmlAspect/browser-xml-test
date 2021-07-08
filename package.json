@@ -1,0 +1,23 @@
+{
+  "name": "browser-xml-test",
+  "version": "0.0.0",
+  "description": "Webcomponent browser-xml-test following open-wc recommendations",
+  "author": "browser-xml-test",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "web-dev-server",
+    "test": "web-test-runner --coverage",
+    "test:watch": "web-test-runner --watch"
+  },
+  "dependencies": {
+    "lit-element": "^2.5.1",
+    "lit-html": "^1.4.1"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^2.5.33",
+    "@web/dev-server": "^0.1.18",
+    "@web/test-runner": "^0.12.20"
+  }
+}
